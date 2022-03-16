@@ -74,6 +74,7 @@ class WorkerThread(threading.Thread):
         self.exception_info = None
         self._running = True
         self.start()
+        self.close()
 
     def run(self):
         while self._running:
