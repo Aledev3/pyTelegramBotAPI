@@ -5,5 +5,7 @@ def _f(message):
   bot.send_message(message.chat.id, message.photo)
 
 
-print("hello world")
+
+
+
 
